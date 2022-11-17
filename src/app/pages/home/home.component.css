@@ -1,0 +1,1114 @@
+@media (min-width: 1200px) {
+    main{
+        width: 100%;
+        margin-top: 0;
+        background-color: rgb(255, 255, 255);   
+        background-image: url('../../../assets/img/cam-bowers-cAbH8B-14Vo-unsplash.jpg');
+        background-size: 100%;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 70vh;
+        padding-bottom: 20px;
+    }
+    .sub{
+        height: 150px;
+    }
+    .sub > h1{
+        color: rgb(255, 255, 255);
+        padding-top: 30px;
+        padding-left: 30px;
+        font-family: 'Farro', sans-serif;
+        margin: 0;
+        font-size: 1.3rem;
+    
+    }
+    .chooseCountry{
+        color: #fff;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    .both{
+        color: rgb(255, 208, 0);
+        font-family: 'Farro', sans-serif;
+        font-weight: 700;
+    }
+    .free{
+        color: #fff;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    /* FORM */
+    .forms{
+        box-shadow: 0px 1px 32px -3px rgba(0, 0, 0, 0.466);
+        border-radius: 5px;
+        width: 40%;
+        background-color: #fff;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+        padding-bottom: 30px;
+    }
+    .stl{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        line-height: 30px;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        border: 1px solid grey;
+    }
+    .setPosition{
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+    .setPosition:nth-child(1){
+        padding-top: 20px;
+    }
+    select{
+        display: block;
+        height: 30px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .place[placeholder]{
+        text-align: end;
+        box-sizing: border-box;
+    }
+    .press{
+        display: block;
+        background-color: rgb(255, 196, 0);
+        border: none;
+        border-radius: 5px;
+        line-height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 15px auto;
+        font-family: 'Farro', sans-serif;
+        transition: .1s;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+    }
+    .press:hover{
+        background-color: rgb(255, 210, 9);
+        transform: scale(1.1);
+        transition: .1s;
+    }
+    /* TOP */
+    .topCars{
+        width: 100%;
+        height: 60vh;
+        margin-bottom: 100px;
+        background-color: rgb(255, 255, 255);
+    }
+    .myCars{
+        height: 100px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .weekCars{
+        height: 10%;
+        text-align: center
+    }
+    .weekCars > h2{
+        color: rgb(92, 92, 92);
+        font-family: 'Farro', sans-serif;
+        margin: 0;
+    }
+    .items{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    .box{
+        width: 20%;
+        height: 400px;
+        font-family: 'Farro', sans-serif;
+        box-shadow: 0px 1px 23px -5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: .2s;
+    
+    }
+    .box:hover{
+        transform: scale(1.1);
+        transition: .2s;
+        border: 1px solid rgb(255, 196, 0);
+        border-radius: 5px;
+    }
+    .description{
+        padding-left: 20px;
+    }
+    
+    .boxImg{
+        width: 100%;
+        height: 40%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+    .marg{
+        margin-right: 5px;
+    }
+    .char {
+        display: flex;
+        width: 100%; 
+    
+    
+    }
+    .char > p{
+        margin-top: 0;
+        
+    }
+    .char > p+p{
+        margin-left: 10px;
+    }
+    .details{
+        font-family: 'Farro', sans-serif;
+        display: block;
+        margin: 10px auto;
+        background-color: rgb(255, 187, 0);
+        border: none;
+        width: 100px;
+        line-height: 30px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: .1s;
+        
+    }
+    .details:hover{
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 187, 0) ;
+        transition: .1s;
+    }
+    /* ******* */
+    .bord{
+        height: 1px;
+        width: 70%;
+        margin: 0 auto;
+        background-color: grey;
+    }
+    /* forClient */
+    .forClient{
+        display: block;
+        height: 60vh;
+        width: 100%;
+        margin-top: 50px;
+        background-image: url('../../../assets/img/alex-duffy-a-E__y8y5Wo-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .forClient > h2{
+        display: block;
+        padding-top: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .info{
+        background-color: rgba(148, 148, 148, 0.678);
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+        box-sizing: border-box;
+        color: rgb(228, 228, 228);
+        padding-bottom: 20px;
+    }
+    .CarDevi{
+        color: rgb(255, 197, 6);
+    }
+    
+ }
+
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    main{
+        width: 100%;
+        margin-top: 0;
+        padding-bottom: 20px;
+        background-color: rgb(255, 255, 255);   
+        background-image: url('../../../assets/img/cam-bowers-cAbH8B-14Vo-unsplash.jpg');
+        background-size: 100%;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 70vh;
+    }
+    .sub{
+        height: 150px;
+    }
+    .sub > h1{
+        color: rgb(255, 255, 255);
+        padding-top: 30px;
+        padding-left: 30px;
+        font-family: 'Farro', sans-serif;
+        margin: 0;
+        font-size: 1.1rem;
+    
+    }
+    .chooseCountry{
+        color: #fff;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    .both{
+        color: rgb(255, 208, 0);
+        font-family: 'Farro', sans-serif;
+        font-weight: 700;
+    }
+    .free{
+        color: #fff;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    /* FORM */
+    .forms{
+        box-shadow: 0px 1px 32px -3px rgba(0, 0, 0, 0.466);
+        border-radius: 5px;
+        width: 40%;
+        background-color: #fff;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+        padding-bottom: 30px;
+        
+    }
+    .stl{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        line-height: 30px;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        border: 1px solid grey;
+    }
+    .setPosition{
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+    .setPosition:nth-child(1){
+        padding-top: 20px;
+    }
+    select{
+        display: block;
+        height: 30px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .place[placeholder]{
+        text-align: end;
+        box-sizing: border-box;
+    }
+    .press{
+        display: block;
+        background-color: rgb(255, 196, 0);
+        border: none;
+        border-radius: 5px;
+        line-height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 15px auto;
+        font-family: 'Farro', sans-serif;
+        transition: .1s;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+    }
+    .press:hover{
+        background-color: rgb(255, 210, 9);
+        transform: scale(1.1);
+        transition: .1s;
+    }
+    /* TOP */
+    .topCars{
+        width: 100%;
+        margin-bottom: 100px;
+        background-color: rgb(255, 255, 255);
+    }
+    .myCars{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .weekCars{
+
+        text-align: center
+    }
+    .weekCars > h2{
+        color: rgb(92, 92, 92);
+        font-family: 'Farro', sans-serif;
+        margin: 0;
+    }
+    .items{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    .box{
+        width: 20%;
+        height: 400px;
+        font-family: 'Farro', sans-serif;
+        box-shadow: 0px 1px 23px -5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: .2s;
+        
+    
+    }
+    .box:hover{
+        transform: scale(1.1);
+        transition: .2s;
+        border: 1px solid rgb(255, 196, 0);
+        border-radius: 5px;
+    }
+    .description{
+        padding-left: 20px;
+        font-size: .8rem;
+    }
+    
+    .boxImg{
+        width: 100%;
+        height: 40%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+    .marg{
+        margin-right: 5px;
+    }
+    .char {
+        display: flex;
+        width: 100%; 
+    
+    
+    }
+    .char > p{
+        margin-top: 0;
+        
+    }
+    .char > p+p{
+        margin-left: 10px;
+    }
+    .details{
+        font-family: 'Farro', sans-serif;
+        display: block;
+        margin: 10px auto;
+        background-color: rgb(255, 187, 0);
+        border: none;
+        width: 100px;
+        line-height: 30px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: .1s;
+        
+    }
+    .details:hover{
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 187, 0) ;
+        transition: .1s;
+    }
+    
+    /* forClient */
+    .forClient{
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+        background-image: url('../../../assets/img/alex-duffy-a-E__y8y5Wo-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .forClient > h2{
+        display: block;
+        padding-top: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .info{
+        background-color: rgba(148, 148, 148, 0.678);
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+        box-sizing: border-box;
+        color: rgb(228, 228, 228);
+        padding-bottom: 20px;
+    }
+    .CarDevi{
+        color: rgb(255, 197, 6);
+    }
+    
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    main{
+        width: 100%;
+        margin-top: 0;
+        padding-bottom: 20px;
+        background-color: rgb(255, 255, 255);   
+        background-image: url('../../../assets/img/cam-bowers-cAbH8B-14Vo-unsplash.jpg');
+        background-size: cover;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 70vh;
+    }
+    .sub{
+        height: 150px;
+    }
+    .sub > h1{
+        color: rgb(255, 255, 255);
+        padding-top: 30px;
+        padding-left: 30px;
+        font-family: 'Farro', sans-serif;
+        margin: 0;
+        font-size: 1.1rem;
+    
+    }
+    .chooseCountry{
+        color: #fff;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    .both{
+        color: rgb(255, 208, 0);
+        font-family: 'Farro', sans-serif;
+        font-weight: 700;
+    }
+    .free{
+        color: #fff;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    /* FORM */
+    .forms{
+        box-shadow: 0px 1px 32px -3px rgba(0, 0, 0, 0.466);
+        border-radius: 5px;
+        width: 40%;
+        background-color: #fff;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+        padding-bottom: 30px;
+        
+    }
+    .stl{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        line-height: 30px;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        border: 1px solid grey;
+    }
+    .setPosition{
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+    .setPosition:nth-child(1){
+        padding-top: 20px;
+    }
+    select{
+        display: block;
+        height: 30px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .place[placeholder]{
+        text-align: end;
+        box-sizing: border-box;
+    }
+    .press{
+        display: block;
+        background-color: rgb(255, 196, 0);
+        border: none;
+        border-radius: 5px;
+        line-height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 15px auto;
+        font-family: 'Farro', sans-serif;
+        transition: .1s;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+    }
+    .press:hover{
+        background-color: rgb(255, 210, 9);
+        transform: scale(1.1);
+        transition: .1s;
+    }
+    /* TOP */
+    .topCars{
+        width: 100%;
+        margin-bottom: 100px;
+        background-color: rgb(255, 255, 255);
+    }
+    .myCars{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .weekCars{
+
+        text-align: center
+    }
+    .weekCars > h2{
+        color: rgb(92, 92, 92);
+        font-family: 'Farro', sans-serif;
+        margin: 0;
+    }
+    .items{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    .box{
+        width: 45%;
+        margin-top: 20px;
+        height: 400px;
+        font-family: 'Farro', sans-serif;
+        box-shadow: 0px 1px 23px -5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: .2s;
+        
+    
+    }
+    .box:hover{
+        transform: scale(1.1);
+        transition: .2s;
+        border: 1px solid rgb(255, 196, 0);
+        border-radius: 5px;
+    }
+    .description{
+        padding-left: 20px;
+        font-size: .8rem;
+    }
+    
+    .boxImg{
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+    .marg{
+        margin-right: 5px;
+    }
+    .char {
+        display: flex;
+        width: 100%; 
+    
+    
+    }
+    .char > p{
+        margin-top: 0;
+        
+    }
+    .char > p+p{
+        margin-left: 10px;
+    }
+    .details{
+        font-family: 'Farro', sans-serif;
+        display: block;
+        margin: 10px auto;
+        background-color: rgb(255, 187, 0);
+        border: none;
+        width: 100px;
+        line-height: 30px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: .1s;
+        
+    }
+    .details:hover{
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 187, 0) ;
+        transition: .1s;
+    }
+    
+    /* forClient */
+    .forClient{
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+        background-image: url('../../../assets/img/alex-duffy-a-E__y8y5Wo-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .forClient > h2{
+        display: block;
+        padding-top: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .info{
+        background-color: rgba(148, 148, 148, 0.678);
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+        box-sizing: border-box;
+        color: rgb(228, 228, 228);
+        padding-bottom: 20px;
+        font-size: .9rem;
+    }
+    .CarDevi{
+        color: rgb(255, 197, 6);
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    main{
+        width: 100%;
+        margin-top: 0;
+        padding-bottom: 20px;
+        background-color: rgb(255, 255, 255);   
+        background-image: url('../../../assets/img/cam-bowers-cAbH8B-14Vo-unsplash.jpg');
+        background-size: cover;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 70vh;
+    }
+    .sub{
+        height: 150px;
+    }
+    .sub > h1{
+        color: rgb(255, 255, 255);
+        padding-top: 30px;
+        padding-left: 30px;
+        font-family: 'Farro', sans-serif;
+        margin: 0;
+        font-size: 1.1rem;
+    
+    }
+    .chooseCountry{
+        color: #fff;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    .both{
+        color: rgb(255, 208, 0);
+        font-family: 'Farro', sans-serif;
+        font-weight: 700;
+    }
+    .free{
+        color: #fff;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    /* FORM */
+    .forms{
+        box-shadow: 0px 1px 32px -3px rgba(0, 0, 0, 0.466);
+        border-radius: 5px;
+        width: 40%;
+        background-color: #fff;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+        padding-bottom: 30px;
+        
+    }
+    .stl{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        line-height: 30px;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        border: 1px solid grey;
+    }
+    .setPosition{
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+    .setPosition:nth-child(1){
+        padding-top: 20px;
+    }
+    select{
+        display: block;
+        height: 30px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .place[placeholder]{
+        text-align: end;
+        box-sizing: border-box;
+    }
+    .press{
+        display: block;
+        background-color: rgb(255, 196, 0);
+        border: none;
+        border-radius: 5px;
+        line-height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 15px auto;
+        font-family: 'Farro', sans-serif;
+        transition: .1s;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+    }
+    .press:hover{
+        background-color: rgb(255, 210, 9);
+        transform: scale(1.1);
+        transition: .1s;
+    }
+    /* TOP */
+    .topCars{
+        width: 100%;
+        margin-bottom: 100px;
+        background-color: rgb(255, 255, 255);
+    }
+    .myCars{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .weekCars{
+
+        text-align: center
+    }
+    .weekCars > h2{
+        color: rgb(92, 92, 92);
+        font-family: 'Farro', sans-serif;
+        margin: 0;
+    }
+    .items{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    .box{
+        width: 45%;
+        margin-top: 20px;
+        height: 400px;
+        font-family: 'Farro', sans-serif;
+        box-shadow: 0px 1px 23px -5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: .2s;
+        
+    
+    }
+    .box:hover{
+        transform: scale(1.1);
+        transition: .2s;
+        border: 1px solid rgb(255, 196, 0);
+        border-radius: 5px;
+    }
+    .description{
+        padding-left: 20px;
+        font-size: .8rem;
+        
+    }
+    
+    .boxImg{
+        width: 100%;
+        height: 40%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+    .marg{
+        margin-right: 5px;
+    }
+    .char {
+        display: flex;
+        width: 100%; 
+    
+    
+    }
+    .char > p{
+        margin-top: 0;
+        font-size: .8rem;
+        
+    }
+    .char > p+p{
+        margin-left: 10px;
+    }
+    .details{
+        font-family: 'Farro', sans-serif;
+        display: block;
+        margin: 10px auto;
+        background-color: rgb(255, 187, 0);
+        border: none;
+        width: 100px;
+        line-height: 30px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: .1s;
+        
+    }
+    .details:hover{
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 187, 0) ;
+        transition: .1s;
+    }
+    
+    /* forClient */
+    .forClient{
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+        background-image: url('../../../assets/img/alex-duffy-a-E__y8y5Wo-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .forClient > h2{
+        display: block;
+        padding-top: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .info{
+        background-color: rgba(148, 148, 148, 0.678);
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+        box-sizing: border-box;
+        color: rgb(228, 228, 228);
+        padding-bottom: 20px;
+        font-size: .6rem;
+    }
+    .CarDevi{
+        color: rgb(255, 197, 6);
+    }
+   }
+
+   @media (max-width: 575.98px) { 
+    main{
+        width: 100%;
+        margin-top: 0;
+        padding-bottom: 20px;
+        background-color: rgb(255, 255, 255);   
+        background-image: url('../../../assets/img/cam-bowers-cAbH8B-14Vo-unsplash.jpg');
+        background-size: cover;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 70vh;
+    }
+    .sub{
+        height: 150px;
+    }
+    .sub > h1{
+        color: rgb(255, 255, 255);
+        padding-top: 30px;
+        padding-left: 30px;
+        font-family: 'Farro', sans-serif;
+        margin: 0;
+        font-size: 1.1rem;
+        font-size: 0.8rem;
+    
+    }
+    .chooseCountry{
+        color: #fff;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+        font-size: 0.6rem;
+    }
+    .both{
+        color: rgb(255, 208, 0);
+        font-family: 'Farro', sans-serif;
+        font-weight: 700;
+        font-size: 0.6rem;
+    }
+    .free{
+        color: #fff;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+        font-size: 0.6rem;
+    }
+    /* FORM */
+    .forms{
+        box-shadow: 0px 1px 32px -3px rgba(0, 0, 0, 0.466);
+        border-radius: 5px;
+        width: 300px;
+        background-color: #fff;
+        margin-left: 30px;
+        font-family: 'Farro', sans-serif;
+        padding-bottom: 30px;
+        
+    }
+    .stl{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        line-height: 30px;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        border: 1px solid grey;
+    }
+    .setPosition{
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+    .setPosition:nth-child(1){
+        padding-top: 20px;
+    }
+    select{
+        display: block;
+        height: 30px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .place[placeholder]{
+        text-align: end;
+        box-sizing: border-box;
+    }
+    .press{
+        display: block;
+        background-color: rgb(255, 196, 0);
+        border: none;
+        border-radius: 5px;
+        line-height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 15px auto;
+        font-family: 'Farro', sans-serif;
+        transition: .1s;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+    }
+    .press:hover{
+        background-color: rgb(255, 210, 9);
+        transform: scale(1.1);
+        transition: .1s;
+    }
+    /* TOP */
+    .topCars{
+        width: 100%;
+        margin-bottom: 100px;
+        background-color: rgb(255, 255, 255);
+    }
+    .myCars{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .weekCars{
+
+        text-align: center
+    }
+    .weekCars > h2{
+        color: rgb(92, 92, 92);
+        font-family: 'Farro', sans-serif;
+        margin: 0;
+    }
+    .items{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    .box{
+        width: 80%;
+        margin:  20px auto;
+        height: 400px;
+        font-family: 'Farro', sans-serif;
+        box-shadow: 0px 1px 23px -5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: .2s;
+        
+    
+    }
+    .box:hover{
+        transform: scale(1.1);
+        transition: .2s;
+        border: 1px solid rgb(255, 196, 0);
+        border-radius: 5px;
+    }
+    .description{
+        padding-left: 20px;
+        font-size: .8rem;
+        
+    }
+    
+    .boxImg{
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+    .marg{
+        margin-right: 5px;
+    }
+    .char {
+        display: flex;
+        width: 100%; 
+    
+    
+    }
+    .char > p{
+        margin-top: 0;
+        font-size: .8rem;
+        
+    }
+    .char > p+p{
+        margin-left: 10px;
+    }
+    .details{
+        font-family: 'Farro', sans-serif;
+        display: block;
+        margin: 10px auto;
+        background-color: rgb(255, 187, 0);
+        border: none;
+        width: 100px;
+        line-height: 30px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: .1s;
+        
+    }
+    .details:hover{
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 187, 0) ;
+        transition: .1s;
+    }
+    
+    /* forClient */
+    .forClient{
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+        background-image: url('../../../assets/img/alex-duffy-a-E__y8y5Wo-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .forClient > h2{
+        display: block;
+        padding-top: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .info{
+        background-color: rgba(148, 148, 148, 0.678);
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+        box-sizing: border-box;
+        color: rgb(228, 228, 228);
+        padding-bottom: 20px;
+        font-size: .6rem;
+    }
+    .CarDevi{
+        color: rgb(255, 197, 6);
+    }
+    }

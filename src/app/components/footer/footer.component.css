@@ -1,0 +1,455 @@
+@media (min-width: 1200px) { 
+    footer{
+        width: 100%;
+        background-color: rgb(43, 43, 43);
+        
+    }
+    .logotype{
+        display: flex;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .left{
+        display: block;
+        width: 30%;
+        height: 100%;
+    }
+    .logo{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo:nth-child(1){
+        width: 50%;
+        padding-left: 20px;
+        color: #fff;
+    }
+    .fooImg{
+        width: 50px;
+    }
+    .left > p{
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+    }
+    .rigth{
+        display: block;
+        width: 70%;
+        height: 100%;
+        
+    }
+    .moreInfo{
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .moreInfo > h2 {
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+    }
+    .clr{
+        margin-right: 10px;
+        color: rgb(255, 187, 0);
+    }
+    .first{
+        width: 50%;
+        height: 100%;
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+    }
+    .second{
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        margin-left: 50px;
+        width: 48%;
+        text-align: center;
+    }
+    .media{
+        width: 100%;
+     
+    }
+    .media >p {
+        text-align: center;
+    }
+    .media > ul{
+        padding: 0;
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .media > ul > li > a > img{
+        width: 30px;
+    }
+ }
+
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    footer{
+        width: 100%;
+        background-color: rgb(43, 43, 43);
+    
+    }
+    .logotype{
+        display: flex;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .left{
+        display: block;
+        width: 30%;
+        height: 100%;
+    }
+    .logo{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo:nth-child(1){
+        width: 50%;
+        padding-left: 20px;
+        color: #fff;
+        font-size: .9rem;
+    }
+    .fooImg{
+        width: 50px;
+    }
+    .left > p{
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        font-size: .9rem;
+    }
+    .rigth{
+        display: block;
+        width: 70%;
+        height: 100%;
+        
+    }
+    .moreInfo{
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .moreInfo > h2 {
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        
+    }
+    .clr{
+        margin-right: 10px;
+        color: rgb(255, 187, 0);
+    }
+    .first{
+        width: 50%;
+        height: 100%;
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        font-size: .9rem;
+    }
+    .second{
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        margin-left: 50px;
+        width: 48%;
+        text-align: center;
+        font-size: .9rem;
+    }
+    .media{
+        width: 100%;
+     
+    }
+    .media >p {
+        text-align: center;
+    }
+    .media > ul{
+        padding: 0;
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .media > ul > li > a > img{
+        width: 30px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    footer{
+        width: 100%;
+        background-color: rgb(43, 43, 43);
+    
+    }
+    .logotype{
+        display: flex;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .left{
+        display: block;
+        width: 30%;
+        height: 100%;
+    }
+    .logo{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo:nth-child(1){
+        width: 50%;
+        padding-left: 20px;
+        color: #fff;
+        font-size: .9rem;
+    }
+    .fooImg{
+        width: 50px;
+    }
+    .left > p{
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        font-size: .6rem;
+    }
+    .rigth{
+        display: block;
+        width: 70%;
+        height: 100%;
+        
+    }
+    .moreInfo{
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .moreInfo > h2 {
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        
+    }
+    .clr{
+        margin-right: 10px;
+        color: rgb(255, 187, 0);
+    }
+    .first{
+        width: 50%;
+        height: 100%;
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        font-size: .6rem;
+    }
+    .second{
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        margin-left: 50px;
+        width: 48%;
+        text-align: center;
+        font-size: .6rem;
+    }
+    .media{
+        width: 100%;
+     
+    }
+    .media >p {
+        text-align: center;
+    }
+    .media > ul{
+        padding: 0;
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .media > ul > li > a > img{
+        width: 20px;
+    }
+   }
+   @media (min-width: 576px) and (max-width: 767.98px) { 
+    footer{
+        width: 100%;
+        background-color: rgb(43, 43, 43);
+  
+    }
+    .logotype{
+        display: flex;
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .left{
+        display: block;
+        width: 30%;
+        height: 100%;
+    }
+    .logo{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo:nth-child(1){
+        width: 50%;
+        padding-left: 20px;
+        color: #fff;
+        font-size: .9rem;
+        margin: 0;
+    }
+    .fooImg{
+        width: 30px;
+    }
+    .left > p{
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        font-size: .5rem;
+    }
+    .rigth{
+        display: block;
+        width: 70%;
+        height: 100%;
+        
+    }
+    .moreInfo{
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .moreInfo > h2 {
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        
+    }
+    .clr{
+        margin-right: 10px;
+        color: rgb(255, 187, 0);
+    }
+    .first{
+        width: 50%;
+        height: 100%;
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        font-size: .5rem;
+    }
+    .second{
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        margin-left: 50px;
+        width: 48%;
+        text-align: center;
+        font-size: .5rem;
+    }
+    .media{
+        width: 100%;
+     
+    }
+    .media >p {
+        text-align: center;
+    }
+    .media > ul{
+        padding: 0;
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .media > ul > li > a > img{
+        width: 20px;
+    }
+   }
+
+   @media (max-width: 575.98px) { 
+    footer{
+        width: 100%;
+        background-color: rgb(43, 43, 43);
+        
+    }
+    .logotype{
+        display: flex;
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .left{
+        display: block;
+        width: 30%;
+        height: 100%;
+    }
+    .logo{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo:nth-child(1){
+        width: 50%;
+        padding-left: 20px;
+        color: #fff;
+        font-size: .9rem;
+        margin: 0;
+    }
+    .fooImg{
+        width: 30px;
+    }
+    .left > p{
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        font-size: .5rem;
+    }
+    .rigth{
+        display: block;
+        width: 70%;
+        height: 100%;
+        
+    }
+    .moreInfo{
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .moreInfo > h2 {
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        
+    }
+    .clr{
+        margin-right: 10px;
+        color: rgb(255, 187, 0);
+    }
+    .first{
+        width: 50%;
+        height: 100%;
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        font-size: .5rem;
+    }
+    .second{
+        color: #fff;
+        font-family: 'Farro', sans-serif;
+        margin-left: 50px;
+        width: 48%;
+        text-align: center;
+        font-size: .5rem;
+    }
+    .media{
+        width: 100%;
+     
+    }
+    .media >p {
+        text-align: center;
+    }
+    .media > ul{
+        padding: 0;
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .media > ul > li > a > img{
+        width: 20px;
+    }
+    }

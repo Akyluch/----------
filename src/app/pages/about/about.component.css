@@ -1,0 +1,456 @@
+@media (min-width: 1200px) {
+.about{
+    width: 100%;
+}
+.about  h1 {
+    width: 100%;
+    text-align: center;
+}
+.author{
+    width: 80%;
+    margin:  20px auto;
+    height: 300px;
+    display: flex;
+    box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.photo{
+    display: inline-flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.myPhoto{
+    width: 230px;
+    border-radius: 50%;
+}
+.sign{
+    font-family: 'Farro', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
+.text{
+    display: inline-flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact{
+    width: 80%;
+    margin:  20px auto;
+    box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact h1{
+    font-family: 'Farro', sans-serif;
+}
+.cont{
+    margin-left: 30px;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.merg{
+    margin-right: 20px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+}
+.stlMap{
+    display: block;
+    width: 80%;
+    height: 300px;
+    } 
+.informer{
+    margin-left: 20px;
+}
+ 
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .about{
+        width: 100%;
+    }
+    .about  h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .author{
+        width: 80%;
+        margin:  20px auto;
+        height: 300px;
+        display: flex;
+        box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+    
+    }
+    .photo{
+        display: inline-flex;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .myPhoto{
+        width: 150px;
+        border-radius: 50%;
+    }
+    .sign{
+        font-family: 'Farro', sans-serif;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-top: 10px;
+    
+    }
+    .text{
+        display: inline-flex;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .contact{
+        width: 80%;
+        margin:  20px auto;
+        box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .contact h1{
+        font-family: 'Farro', sans-serif;
+    }
+    .cont{
+        margin-left: 30px;
+        
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .merg{
+        margin-right: 20px;
+    }
+    .right{
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        height: 100%;
+    }
+    .stlMap{
+        display: block;
+        width: 80%;
+        height: 300px;
+        } 
+    .informer{
+         margin-left: 20px;
+     }
+ }
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+    .about{
+        width: 100%;
+    }
+    .about  h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .author{
+        width: 80%;
+        margin:  20px auto;
+        height: 300px;
+        display: flex;
+        box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+    
+    }
+    .photo{
+        display: inline-flex;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .myPhoto{
+        width: 150px;
+        border-radius: 50%;
+    }
+    .sign{
+        font-family: 'Farro', sans-serif;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-top: 10px;
+    
+    }
+    .text{
+        display: inline-flex;
+        width: 70%;
+        justify-content: center;
+        margin-top: 30px;
+        font-size: .9rem;
+    }
+    .contact{
+        width: 80%;
+        margin:  20px auto;
+        box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .contact h1{
+        font-family: 'Farro', sans-serif;
+    }
+    .cont{
+        margin-left: 30px;
+        
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .merg{
+        margin-right: 20px;
+    }
+    .right{
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        height: 100%;
+    }
+    .stlMap{
+        display: block;
+        width: 80%;
+        height: 200px;
+        } 
+     .informer{
+         margin-left: 20px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+    .about{
+        width: 100%;
+    }
+    .about  h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .author{
+        width: 80%;
+        margin:  20px auto;
+        height: 200px;
+        display: flex;
+        box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+    
+    }
+    .photo{
+        display: inline-flex;
+        width: 25%;
+        height: 25%;
+        margin-top: 40px;
+        justify-content: center;
+        
+        flex-wrap: wrap;
+    }
+    .myPhoto{
+        width: 100px;
+        border-radius: 50%;
+    }
+    .sign{
+        font-family: 'Farro', sans-serif;
+        font-weight: 600;
+        font-size: .6rem;
+        margin-top: 10px;
+    
+    }
+    .text{
+        display: inline-flex;
+        width: 75%;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: .6rem;
+    }
+    .contact{
+        width: 80%;
+        margin:  20px auto;
+        box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .contact h1{
+        font-family: 'Farro', sans-serif;
+    }
+    .cont{
+        margin-left: 30px;
+        font-size: .7rem;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .merg{
+        margin-right: 20px;
+    }
+    .right{
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        height: 100%;
+    }
+    .stlMap{
+        display: block;
+        width: 80%;
+        height: 200px;
+        } 
+    .informer{
+        margin-left: 20px;
+    }
+   }
+
+
+   @media (max-width: 575.98px) { 
+    .about{
+        width: 100%;
+    }
+    .about  h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .author{
+        width: 80%;
+        margin:  20px auto;
+        height: 200px;
+        display: flex;
+        box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+    
+    }
+    .photo{
+        display: inline-flex;
+        width: 25%;
+        height: 25%;
+        margin-top: 40px;
+        justify-content: center;
+        
+        flex-wrap: wrap;
+    }
+    .myPhoto{
+        width: 100px;
+        border-radius: 50%;
+    }
+    .sign{
+        font-family: 'Farro', sans-serif;
+        font-weight: 600;
+        font-size: .6rem;
+        margin-top: 10px;
+    
+    }
+    .text{
+        display: inline-flex;
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        font-size: .5rem;
+        margin-left: 30px;
+    }
+    .contact{
+        width: 80%;
+        margin:  20px auto;
+        box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .contact h1{
+        font-family: 'Farro', sans-serif;
+        font-size: 1rem;
+    }
+    .cont{
+        margin-left: 30px;
+        font-size: .6rem;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   
+    }
+    .merg{
+        margin-right: 20px;
+    }
+    .right{
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        height: 100%;
+    }
+    .stlMap{
+        display: block;
+        width: 80%;
+        height: 140px;
+        }    
+    .informer{
+        margin-left: 20px;
+    }
+   }

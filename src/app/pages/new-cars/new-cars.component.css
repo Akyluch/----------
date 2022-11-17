@@ -1,0 +1,448 @@
+@media (min-width: 1200px) { 
+    .cars{
+        width: 100%;
+        background-image: url('../../../assets/img/chuttersnap-9cCeS9Sg6nU-unsplash.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .messege{
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .messege > h3{
+        margin: 0;
+        font-size: 1.4rem;
+        padding-top: 20px;
+        color: rgb(255, 255, 255);
+        font-family: 'Farro', sans-serif;
+    }
+    .selectVehicle{
+        display: grid;
+        grid-template-columns: repeat(6,33%);
+        overflow-x: scroll;
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    .box{
+        box-shadow: 2px 1px 50px -8px rgba(255, 255, 255, 0.486);
+        margin-left: 20px;
+        width: 75%;
+        border-radius: 10px;
+        height: 450px;
+        background-color: #fff;
+        margin-bottom: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    .description{
+        padding-left: 20px;
+    }
+    .boxImg{
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .char{
+        display: flex;
+        width: 100%; 
+    
+    
+    }
+    .char>p{
+        margin-top: 0;
+    }
+    .marg{
+        margin-right: 10px;
+    }
+    .leftSide{
+        margin-left: 10px;
+    }
+    .details{
+        display: block;
+        line-height: 30px;
+        border: none;
+        outline: none;
+        font-family: 'Farro', sans-serif;
+        background-color:rgb(255, 198, 9);
+        margin: 0 auto;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+        transition: .1s;
+        
+    }
+    .details:hover{
+        background-color:rgb(0, 0, 0);
+        color: rgb(255, 198, 9);
+    }
+    .details:active{
+        transform: translate(0px,2px);
+        transition: .1s;
+    }
+ }
+
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .cars{
+        width: 100%;
+        background-image: url('../../../assets/img/chuttersnap-9cCeS9Sg6nU-unsplash.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .messege{
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .messege > h3{
+        margin: 0;
+        font-size: 1.4rem;
+        padding-top: 20px;
+        color: rgb(255, 255, 255);
+        font-family: 'Farro', sans-serif;
+    }
+    .selectVehicle{
+        display: grid;
+        grid-template-columns: repeat(6,33%);
+        overflow-x: scroll;
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    .box{
+        box-shadow: 2px 1px 50px -8px rgba(255, 255, 255, 0.486);
+        margin-left: 20px;
+        width: 75%;
+        border-radius: 10px;
+        height: 350px;
+        background-color: #fff;
+        margin-bottom: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    .description{
+        padding-left: 20px;
+        font-size: 0.7rem;
+    }
+    .boxImg{
+        width: 100%;
+        height: 40%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .char{
+        display: flex;
+        width: 100%; 
+    
+    
+    }
+    .char>p{
+        margin-top: 0;
+        font-size: 0.7rem;
+    }
+    .marg{
+        margin-right: 10px;
+    }
+    .leftSide{
+        margin-left: 10px;
+    }
+    .details{
+        display: block;
+        line-height: 30px;
+        border: none;
+        outline: none;
+        font-family: 'Farro', sans-serif;
+        background-color:rgb(255, 198, 9);
+        margin: 0 auto;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 15px;
+        cursor: pointer;
+        transition: .1s;
+        font-size: 0.7rem;
+        
+    }
+    .details:hover{
+        background-color:rgb(0, 0, 0);
+        color: rgb(255, 198, 9);
+    }
+    .details:active{
+        transform: translate(0px,2px);
+        transition: .1s;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    .cars{
+        width: 100%;
+        background-image: url('../../../assets/img/chuttersnap-9cCeS9Sg6nU-unsplash.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .messege{
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .messege > h3{
+        margin: 0;
+        font-size: 1.4rem;
+        padding-top: 20px;
+        color: rgb(255, 255, 255);
+        font-family: 'Farro', sans-serif;
+    }
+    .selectVehicle{
+        display: grid;
+        grid-template-columns: repeat(6,33%);
+        overflow-x: scroll;
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    .box{
+        box-shadow: 2px 1px 50px -8px rgba(255, 255, 255, 0.486);
+        margin-left: 20px;
+        width: 75%;
+        border-radius: 10px;
+        height: 350px;
+        background-color: #fff;
+        margin-bottom: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    .description{
+        padding-left: 20px;
+        font-size: 0.7rem;
+    }
+    .boxImg{
+        width: 100%;
+        height: 40%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .char{
+        display: flex;
+        width: 100%; 
+    
+    
+    }
+    .char>p{
+        margin-top: 0;
+        font-size: 0.7rem;
+    }
+    .marg{
+        margin-right: 10px;
+    }
+    .leftSide{
+        margin-left: 10px;
+    }
+    .details{
+        display: block;
+        line-height: 30px;
+        border: none;
+        outline: none;
+        font-family: 'Farro', sans-serif;
+        background-color:rgb(255, 198, 9);
+        margin: 0 auto;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 15px;
+        cursor: pointer;
+        transition: .1s;
+        font-size: 0.7rem;
+        
+    }
+    .details:hover{
+        background-color:rgb(0, 0, 0);
+        color: rgb(255, 198, 9);
+    }
+    .details:active{
+        transform: translate(0px,2px);
+        transition: .1s;
+    }
+   }
+
+   @media (min-width: 576px) and (max-width: 767.98px) { 
+    .cars{
+        width: 100%;
+        background-image: url('../../../assets/img/chuttersnap-9cCeS9Sg6nU-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .messege{
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    .messege > h3{
+        margin: 0;
+        font-size: 1rem;
+        padding-top: 20px;
+        color: rgb(255, 255, 255);
+        font-family: 'Farro', sans-serif;
+    }
+    .selectVehicle{
+        display: grid;
+        grid-template-columns: repeat(6,33%);
+        overflow-x: scroll;
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    .box{
+        box-shadow: 2px 1px 50px -8px rgba(255, 255, 255, 0.486);
+        margin-left: 20px;
+        width: 75%;
+        border-radius: 10px;
+        height: 250px;
+        background-color: #fff;
+        margin-bottom: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    .description{
+        padding-left: 20px;
+        font-size: 0.5rem;
+        
+    }
+    .boxImg{
+        width: 100%;
+        height: 40%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .char{
+        display: flex;
+        width: 100%; 
+    
+    
+    }
+    .char>p{
+        margin-top: 0;
+        font-size: 0.5rem;
+    }
+    .marg{
+        margin-right: 10px;
+    }
+    .leftSide{
+        margin-left: 10px;
+    }
+    .details{
+        display: block;
+        line-height: 20px;
+        border: none;
+        outline: none;
+        font-family: 'Farro', sans-serif;
+        background-color:rgb(255, 198, 9);
+        margin: 0 auto;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 15px;
+        cursor: pointer;
+        transition: .1s;
+        font-size: 0.5rem;
+        
+    }
+    .details:hover{
+        background-color:rgb(0, 0, 0);
+        color: rgb(255, 198, 9);
+    }
+    .details:active{
+        transform: translate(0px,2px);
+        transition: .1s;
+    }
+}
+
+    @media (max-width: 575.98px) {    .cars{
+        width: 100%;
+        background-image: url('../../../assets/img/chuttersnap-9cCeS9Sg6nU-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .messege{
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    .messege > h3{
+        margin: 0;
+        font-size: 1rem;
+        padding-top: 20px;
+        color: rgb(255, 255, 255);
+        font-family: 'Farro', sans-serif;
+    }
+    .selectVehicle{
+        display: grid;
+        grid-template-columns: repeat(6,33%);
+        overflow-x: scroll;
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    .box{
+        box-shadow: 2px 1px 50px -8px rgba(255, 255, 255, 0.486);
+        margin-left: 20px;
+        width: 75%;
+        border-radius: 10px;
+        height: 250px;
+        background-color: #fff;
+        margin-bottom: 30px;
+        font-family: 'Farro', sans-serif;
+    }
+    .description{
+        padding-left: 20px;
+        font-size: 0.5rem;
+        
+    }
+    .boxImg{
+        width: 100%;
+        height: 40%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .char{
+        display: flex;
+        width: 100%; 
+    
+    
+    }
+    .char>p{
+        margin-top: 0;
+        font-size: 0.5rem;
+    }
+    .marg{
+        margin-right: 10px;
+    }
+    .leftSide{
+        margin-left: 10px;
+    }
+    .details{
+        display: block;
+        line-height: 20px;
+        border: none;
+        outline: none;
+        font-family: 'Farro', sans-serif;
+        background-color:rgb(255, 198, 9);
+        margin: 0 auto;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 15px;
+        cursor: pointer;
+        transition: .1s;
+        font-size: 0.5rem;
+        
+    }
+    .details:hover{
+        background-color:rgb(0, 0, 0);
+        color: rgb(255, 198, 9);
+    }
+    .details:active{
+        transform: translate(0px,2px);
+        transition: .1s;
+    }
+  }
